@@ -47,13 +47,13 @@ const extraLargeArray = getSizedArray(100000);
 
 // Try it with first function
 perf.start();                     // Starts timer
-doublerAppend(largeArray);
+doublerAppend(extralargeArray);
 let resultsAppend = perf.stop();  // Stops timer and save time results
 
 
 // Try it with second function
 perf.start();
-doublerInsert(largeArray);
+doublerInsert(extralargeArray);
 let resultsInsert = perf.stop();
 
 
