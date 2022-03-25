@@ -1,26 +1,61 @@
 
 extraLargeArray Results:
-    insert - 653.0985 ms
-    append - 3.6744 ms
+    Run 1:
+        insert - 653.0985 ms
+        append - 3.6744 ms
+    Run 2:
+        insert -645.6441 ms
+        append - 2.9376 ms
+    Run 3:
+        insert - 648.7231 ms
+        append - 2.5438 ms
 
 
 tinyArray Results:
-    insert - 38.5 μs
-    append - 87.8 μs
+    Run 1:
+        insert - 38.5 μs
+        append - 87.8 μs
+     Run 2:
+        insert - 33.1 μs
+        append - 85 μs
+     Run 3:
+        insert - 33.6 μs
+        append - 70.1 μs
 
 
 smallArray Results:
-    insert - 51.7 μs
-    append - 105.4 μs
+    Run 1:
+        insert - 51.7 μs
+        append - 105.4 μs
+     Run 2:
+        insert - 43.1 μs
+        append - 81.4 μs
+    Run 3:
+        insert - 55.6 μs
+        append - 98.5 μs
 
 
 mediumArray Results:
-    insert - 155.2 μs
-    append - 117.6 μs
+    Run 1:
+        insert - 155.2 μs
+        append - 117.6 μs
+     Run 2:
+        insert - 157.1 μs
+        append - 121.3 μs
+    Run 3:
+        insert - 152.2 μs
+        append - 119.9 μs
 
 
 largeArray Results:
-    insert - 7.1443 ms
-    append - 526.6 μs
+    Run 1:
+        insert - 7.1443 ms
+        append - 526.6 μs
+     Run 2:
+        insert - 7.3369 ms
+        append - 634.5 μs
+    Run 3:
+        insert - 6.5822 ms
+        append - 405.1 μs
 
 
