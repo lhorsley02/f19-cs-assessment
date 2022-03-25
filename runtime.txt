@@ -4,12 +4,8 @@ extraLargeArray Results:
         insert - 653.0985 ms
         append - 3.6744 ms
     Run 2:
-        insert -645.6441 ms
-        append - 2.9376 ms
-    Run 3:
-        insert - 648.7231 ms
-        append - 2.5438 ms
-
+        insert -658.143 ms
+        append - 2.7364 ms
 
 tinyArray Results:
     Run 1:
@@ -18,10 +14,6 @@ tinyArray Results:
      Run 2:
         insert - 33.1 μs
         append - 85 μs
-     Run 3:
-        insert - 33.6 μs
-        append - 70.1 μs
-
 
 smallArray Results:
     Run 1:
@@ -30,10 +22,6 @@ smallArray Results:
      Run 2:
         insert - 43.1 μs
         append - 81.4 μs
-    Run 3:
-        insert - 55.6 μs
-        append - 98.5 μs
-
 
 mediumArray Results:
     Run 1:
@@ -42,9 +30,6 @@ mediumArray Results:
      Run 2:
         insert - 157.1 μs
         append - 121.3 μs
-    Run 3:
-        insert - 152.2 μs
-        append - 119.9 μs
 
 
 largeArray Results:
@@ -54,8 +39,10 @@ largeArray Results:
      Run 2:
         insert - 7.3369 ms
         append - 634.5 μs
-    Run 3:
-        insert - 6.5822 ms
-        append - 405.1 μs
 
 
+
+Explanation:
+    The main pattern is that the smaller the array, the less time it takes. 
+In the arrays tinyArray and smallArray, the insert time decreases, while with
+the other larger arrays, the insert time increases each time.

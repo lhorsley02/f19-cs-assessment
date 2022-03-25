@@ -1,6 +1,7 @@
 
 //Sum Zero 
-//Runtime O(n^2)
+//Runtime: O(n^2)
+//Space Complexity: O(n^2)
 let arr = [15, 2, -4, 10, 4];
 
 let value = false;
@@ -20,7 +21,8 @@ console.log(value);
 
 
 //Unique Characters 
-//Runtime O(n^2)
+//Runtime: O(n^2)
+//Space Complexity: O(n^2)
 function hasUniqueCharacters(str)
 {
   for(let i = 0; i < str.length; i++)
@@ -35,7 +37,8 @@ console.log(hasUniqueCharacters("asdfgdhjkl"))
 
 
 //Pangram Sentence
-//Runtime O(n)
+//Runtime: O(n)
+//Space Complexity: O(n)
 function checkPangram(str) {
     str = str.toLowerCase();
     
@@ -60,7 +63,8 @@ function checkPangram(str) {
 
 
 //Longest Word
-//Runtime O(n)
+//Runtime: O(n)
+//Space Complexity: O(n)
 function find_longest_word(str) {
     let longestWord = str.split(', ').sort(function(a, b) { return b.length - a.length; });
     return longestWord[0].length;
