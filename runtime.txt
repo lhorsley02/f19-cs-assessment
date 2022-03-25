@@ -45,4 +45,9 @@ largeArray Results:
 Explanation:
     The main pattern is that the smaller the array, the less time it takes. 
 In the arrays tinyArray and smallArray, the insert time decreases, while with
-the other larger arrays, the insert time increases each time.
+the other larger arrays, the insert time increases each time. 
+
+    The reason insert is generally slower is because when insert is used, it 
+adds the new element to the front of the array, and all other elements in the array 
+have to increase their index by one. That whole process slows down the runtime
+as a whole.
