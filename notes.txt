@@ -1,0 +1,26 @@
+
+extraLargeArray Results:
+    insert - 653.0985 ms
+    append - 3.6744 ms
+
+
+tinyArray Results:
+    insert - 38.5 μs
+    append - 87.8 μs
+
+
+smallArray Results:
+    insert - 51.7 μs
+    append - 105.4 μs
+
+
+mediumArray Results:
+    insert - 155.2 μs
+    append - 117.6 μs
+
+
+largeArray Results:
+    insert - 7.1443 ms
+    append - 526.6 μs
+
+
